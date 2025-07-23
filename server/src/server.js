@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(compression());
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:4173', 'https://skillsailclient.netlify.app'],
+    origin: ['http://localhost:5173', 'http://localhost:4173', 'https://jhansiskillsail.netlify.app/'],
     credentials: true
 }));
 
